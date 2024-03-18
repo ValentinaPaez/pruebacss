@@ -1,11 +1,11 @@
 body {
-    background-color:#4bf55c;
+    background-color:#bdbdbd;
 }
 
 header {
     display: flex;
     grid-area: head;
-    background-color:#c56b3478;
+    background-color: #bdbdbd;
     flex-direction: row;
     color: white;
     justify-content: space-around;
@@ -60,7 +60,7 @@ display: none;
 nav {
     display: grid;
     grid-area: nav;
-    background-color: #bdbdbd;
+    background-color: #96e6ed;
     text-align: center;
     height: max-content;
     /* padding: 0%;  */
@@ -88,11 +88,11 @@ section {
 footer {
     grid-area: foot;
     display: flex;
-    background-color:#b2f5b9;
+    background-color:#bdbdbd;
     text-align: center;
     align-items: center;
     flex-direction: column;
-    color: rgb(247, 0, 0);
+    color: rgb(11, 11, 11);
     cursor: pointer;
     text-justify: distribute;
     /* width: 100px; */
@@ -281,9 +281,11 @@ footer {
         display: flex;
         width: 200px;
         height: 450px;
+        background-color: #96e6ed;
     }
     .contact-info   {
         color:black
+
     }
 
 }
